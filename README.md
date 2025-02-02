@@ -1,16 +1,11 @@
-# plant_monitor_app
+# IoT Based Agriculture Monitoring App
 
-A new Flutter project.
+A Flutter project to monitor different parameters of agrictulural crops. They are - Temperature, Humidity and Moisture
 
-## Getting Started
+## Important Things to Consider
 
-This project is a starting point for a Flutter application.
+Before running this project create a database in xampp titled "drainage_app" which has following tables - user (id, username, password, email, role) and sensor_data (ID, Temperature, Humidity, Moisture, Date).
 
-A few resources to get you started if this is your first Flutter project:
+Then keep the database active and run the otp_email.py file to connect backend api with the database.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then run the mobile app keeping the python file in running mode in background.
